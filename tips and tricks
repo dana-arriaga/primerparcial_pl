@@ -1,0 +1,8 @@
+import suma
+
+print("Suma de dos numeros")
+print("Esta suma se hace en el otro archivo")
+NUM1 = int(input("dame el primer numero"))
+NUM2 = int(input("dame el segundo numero")) 
+sumita = suma.sumar(NUM1,NUM2)
+print("El resultado es", sumita)
