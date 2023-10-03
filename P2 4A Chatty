@@ -1,0 +1,18 @@
+# Define una función para que el chatbot responda preguntas
+def responder_pregunta(pregunta):
+    if pregunta == "¿Cómo estás?":
+        return "Estoy bien, ¿y tú?"
+    elif pregunta == "¿Cuál es color favorito?":
+        return "El amarillo, ¿Y el tuyo?."
+    elif pregunta == "¿Qué hora es?":
+        return "Lo siento, no puedo decirte la hora."
+    else:
+        return "No entiendo esa pregunta."
+
+# Bucle principal para interactuar con el chatbot
+while True:
+    pregunta = input("Hazme una pregunta o escribe 'salir' para terminar: ")
+    if pregunta.lower() == "salir":
+        break
+    respuesta = responder_pregunta(pregunta)
+    print(respuesta)
