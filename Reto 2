@@ -1,0 +1,10 @@
+def float=input: ("Calcula la puntuacion del examen")
+def print: (" La puntuacion es 70")
+def print: ("El numero de asignaciones completadas es 5")
+
+reply: ("Calcula la participacion con si/no")
+
+def float (Calcula la puntuacion del examen que es 50)
+ * calcula si es aprobado o no
+def = "si/no"
+ def = "70"
